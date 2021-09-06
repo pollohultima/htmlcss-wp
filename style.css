@@ -13,9 +13,10 @@
 body {
     width: 80%;
     margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.debug .site_header, .immagine, .container, .col {
+.site_header, .immagine, .container, .col {
     margin-top: 20px;
 }
 
@@ -26,9 +27,20 @@ body {
     background-color: blueviolet;
 }
 
-.site_header {}
+.navbar a {
+    text-decoration: none;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    color: #929292;
+}
 
-.logo {}
+.navbar {
+    padding-top: 3rem;
+}
+
+.logo {
+    height: 70px;
+}
 
 /* Main Style */
 
