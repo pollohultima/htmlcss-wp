@@ -13,7 +13,7 @@
 body {
     width: 70%;
     margin: auto;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .site_header, .banner, .container, .col {
@@ -29,8 +29,8 @@ body {
 
 .navbar a {
     text-decoration: none;
-    padding-right: 1rem;
-    font-size: 1.5rem;
+    padding-right: 0.75rem;
+    font-size: 1rem;
     color: #929292;
 }
 
@@ -54,6 +54,18 @@ body {
     background-position: center;
     background-size: cover;
     border-radius: 0.75rem;
+    filter: grayscale(40%);
+}
+
+.caption {
+    padding-top: 20rem;
+    padding-left: 3rem;
+    width: 52%;
+    color: black;
+}
+
+h2 {
+    font-size: 1.75rem;
 }
 
 .debug .container {
