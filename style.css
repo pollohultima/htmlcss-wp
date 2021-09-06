@@ -79,7 +79,10 @@ h2 {
     background-color: violet;
 }
 
-/* .head {} */
+h1 {
+    padding-top: .5rem;
+    font-size: 2.5rem;
+}
 
 .debug .col {
     height: 530px;
